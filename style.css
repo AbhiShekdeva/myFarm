@@ -7,21 +7,22 @@
 {
     background-color: #19376D;
    margin: 0px;
-   height: 10vh;
+   height: 8vh;
 }
-li
+.navbar li
 {
     display: inline;
     font-size: 25px;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+   margin-bottom: 25px;
 }
 #a1{
     color: white;
     margin-right: 30px;
     text-decoration: none;
-   margin-top: 20px;
-   margin-bottom: 25px;
+   
     
 }
 #a2
@@ -29,7 +30,7 @@ li
     margin: 300px;
     text-decoration: none;
     padding: 10px;
-    color: #F4D3D3;
+    color: white;
     font-size: 25px;
     border: none; 
     margin-top: 20px;
@@ -38,7 +39,7 @@ li
 /* Header CSS Code Starts*/
 .header
 {
-    background-image: url(./icon.jpg);
+    background-image: url(./ph.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -210,14 +211,65 @@ li
 /* Contact */
 .contact
 {
-  display: flex;
   background-color: #FFE7A0;
   height: 80vh;
 }
-.contact div{
-  
-  margin: 30px 500px;
-  
+.contact h1{
+  text-align: center;
+  background-color: rgb(0, 0,0,0.3);
+  color: white;
+  padding: 10px;
+}
+.contact-form
+{
+  background-color: rgb(0, 0,0,0.3);
+  width: 30%;
+  height: 60vh;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.contact label{
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+  display: block;
+}
+.contact label:hover{
+  color: black;
+}
+.contact input
+{
+  padding: 10px 30px;
+  width: 50%;
+  outline: none;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+}
+.contact-form div{
+  margin-bottom: 12px;
+}
+.contact-form button:hover
+{
+  background-color: #3E54AC;
+  color: white;
+}
+.contact-form button
+{
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+}
+.Gender
+{
+  display: flex;
+}
+.contact h1:hover
+{
+  color: black;
 }
 /* Services */
 .services
@@ -333,3 +385,34 @@ li
   margin-left: 700px;
   padding-top: 30px;
 }
+/* google map section css */
+.google-map h1
+{
+  text-align: center;
+  color: white;
+  background-color: rgb(2, 1,0,0.2);
+  letter-spacing: 10px;
+  padding: 10px;
+}
+.google-map h1:hover
+{
+  color: black;
+}
+.google-map iframe
+{
+  width: 100%;
+}
+.mobile a
+{
+  text-decoration: none;
+}
+.mobile
+{
+  text-align: center;
+  background-color: #9DB2BF;
+}
+.mobile a:hover
+{
+  color: green;
+}
+
